@@ -11,7 +11,7 @@ The code you obtain at the start contains already some infrastructure.
 Get familiar with it.
 
 We begin by simulating *Nt = 100* timesteps for *N = 500* particles. After each
-timestep we calculate the coordinate of the center of mass and the MSD.
+timestep we calculate the coordinate of the center of mass and the MSD. Suppose that all particles have the same mass of *m=1*.
 
 Things that are missing are:
 * The function `push(...)` that takes all particles and advances their coordinates
